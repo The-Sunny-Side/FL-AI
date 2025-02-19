@@ -1,15 +1,15 @@
 .navbar {
-    background-color: #8cbec6; /* Colore azzurro */
-    padding: 10px 20px;
-    border-radius: 10px;
+    background-color: var(--azzurro);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 4rem;
   }
   
   .logo {
-    color: #f4a841; /* Colore arancione */
-    font-size: 24px;
+    color: var(--arancione); 
+    font-size: var(--font-size-logo);
     font-weight: bold;
   }
