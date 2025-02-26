@@ -1,6 +1,15 @@
 :root {
-    --primary-color: #f4a841;
-    --secondary-color: #8cbec6;
-    --background-color: #f4f4f4;
-    --font-size-logo:2rem;
-  }
+  --primary-color: #f4a841;
+  --secondary-color: #8cbec6;
+  --background-color: #f4f4f4;
+  --font-size-logo: 2rem;
+  --card-bg: #f8f9fa;
+  --card-border: black;
+  --card-shadow: black;
+  --header-bg: white;
+  --header-color: black;
+  --content-bg: #e9f1fa;
+  --btn-bg: #009688;
+  --btn-hover-bg: #00796b;
+  --btn-text-color: white;
+}
