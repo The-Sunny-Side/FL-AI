@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from './navbar/navbar.component';
+import { CardComponent } from './card/card.component';
 @Component({
   selector: 'app-root',
-  imports: [NavbarComponent],
+  imports: [NavbarComponent, CardComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'FL-AI';
