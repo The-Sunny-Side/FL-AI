@@ -1,0 +1,29 @@
+.prompt-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 2rem;
+  }
+  
+  input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid var(--card-border); 
+    border-radius: 5px;
+    background-color: var(--content-bg); 
+    color: var(--header-color); 
+  }
+  
+  button {
+    background-color: var(--btn-bg);
+    color: var(--btn-text-color);
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: var(--btn-hover-bg);
+  }
+  

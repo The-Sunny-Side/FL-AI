@@ -1,7 +1,11 @@
 <app-navbar></app-navbar>
-<app-card
-    [localita]="'Tenerife'"
-  [costo]="390"
-  [albergo]="'Bungalow Beach Resort'"
-  [durata]="'4 giorni'">
-</app-card>
+<app-prompt (onPromptSubmit)="riceviPrompt($event)"></app-prompt>
+
+<div class="card-container">
+  <app-card *ngFor="let viaggio of viaggi" 
+    [localita]="viaggio.localita"
+    [durata]="viaggio.durata"
+    [albergo]="viaggio.albergo"
+    [costo]="viaggio.costo">
+  </app-card>
+</div>
