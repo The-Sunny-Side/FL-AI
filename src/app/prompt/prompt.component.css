@@ -1,14 +1,14 @@
 .prompt-container {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     margin-bottom: 2rem;
   }
   
   input {
     flex-grow: 1;
-    padding: 10px;
-    border: 2px solid var(--card-border); 
-    border-radius: 5px;
+    padding: 1rem;
+    border: 0.125rem solid var(--card-border); 
+    border-radius: 0.3rem;
     background-color: var(--content-bg); 
     color: var(--header-color); 
   }
@@ -17,10 +17,10 @@
     background-color: var(--btn-bg);
     color: var(--btn-text-color);
     border: none;
-    padding: 10px 15px;
+    padding: 1rem 1.5rem;
     cursor: pointer;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 0.3rem;
   }
   
   button:hover {

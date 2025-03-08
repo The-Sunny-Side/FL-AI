@@ -15,7 +15,10 @@ export class PromptComponent {
 
   generaViaggi() {
     if (this.userPrompt.trim()) {
-      this.onPromptSubmit.emit(this.userPrompt);
+      const formattedPrompt = `Trova un viaggio basato su questa richiesta: "${this.userPrompt}". 
+      Restituisci solo questi campi: Località, Costo, Durata, Albergo in formato JSON.`;
+  
+      this.onPromptSubmit.emit(formattedPrompt);
     }
   }
 }
